@@ -1,4 +1,8 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -19,4 +23,16 @@ code {
   margin: 0;
   text-transform: capitalize;
   border: none;outline: none;
+} */
+
+.card{
+  @apply bg-bg-card p text-center rounded before:content-[''] before:w-full 
+  relative before:absolute before:top-0 before:left-0 before:h-1 overflow-hidden;
+}
+
+
+@media screen and (max-width:480px) {
+  .toggle{
+    position: relative;
+  }
 }

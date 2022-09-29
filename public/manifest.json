@@ -1,9 +1,9 @@
 {
-    "short_name": "Weather App",
-    "name": "Weather App PWA",
+    "short_name": "dashboard App",
+    "name": "dashboard App PWA",
     "icons": [
         {
-            "src": "images/logo.png",
+            "src": "logo.png",
             "type": "image/png",
             "sizes": "1024x1024"
         }
